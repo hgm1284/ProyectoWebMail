@@ -104,24 +104,3 @@ p.padding {
      margin-bottom: 50px;
      margin-left: -10px;
 }
-
-.BOXrecibidos {
-	float: left;
-	width: 20px;
-	margin-left: 125px;
-	clear: both;
-	margin-top: 100px;
-	font-family: "Muli", sans-serif;
-	margin: 10px;
-}
-
-.databoxRecibidos {
-	font-family: "Muli", sans-serif;
-	font-size: 2em;
-	border-radius: 2px;
-	height: 80px;
-	width: auto;
-	color: #999;
-	font-weight: normal;
-	margin: 20px;
-}
