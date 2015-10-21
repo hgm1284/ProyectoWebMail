@@ -98,9 +98,15 @@ p.padding {
 
 .rectanguloRecibidos {
      height: 80px;
-     width: 1370px; 
+     width: 1520px; 
      background:#00008B;
      margin-top: -30px;
      margin-bottom: 50px;
      margin-left: -10px;
+}
+
+.rectanguloBotones {
+     width: 100px; 
+     height: 100px;
+     float: left;
 }
