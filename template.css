@@ -1,6 +1,6 @@
 .rectangulo {
      height: 110px;
-     width: 1370px; 
+     width: 1350px; 
      background:#00008B;
      margin-top: -30px;
      margin-bottom: 50px;
@@ -18,6 +18,22 @@ p.padding {
     padding-right: 50px;
     padding-bottom: 25px;
     padding-left: 50px;
+}
+
+#form-divRegistro {
+	background:#E60000;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 12px;
+	padding-bottom: 50px;
+	width: 470px;
+	float: center;
+	left: 50%;
+	position: absolute;
+	margin-top: 5px;
+	margin-left: -260px;
+	-moz-border-radius: 7px;
+	-webkit-border-radius: 7px;
 }
 
 #form-div {
@@ -49,6 +65,30 @@ p.padding {
 	font-size: 3em;
 }
 
+h1 { 
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: white;
+}
+
+.TEXTOregistro {
+	width: 50px;
+	float: left;
+	margin-left: 30px;
+	height: 10px;
+	clear: both;
+	line-height: 10px;
+	margin-top: 5px;
+	font-family: "Muli", sans-serif;
+	color: #FFF8DC;
+	font-size: 15px;
+}
+
 .BOX {
 	float: left;
 	width: auto;
@@ -58,11 +98,32 @@ p.padding {
 	font-family: "Muli", sans-serif;
 }
 
+.BOXregistro {
+	float: left;
+	width: 50px;
+	padding: 5px;
+	margin-left: 30px;
+	clear: both;
+	margin-top: 15px;
+	margin-bottom: 10px;
+	font-family: "Muli", sans-serif;
+}
+
 .databox {
 	font-family: "Muli", sans-serif;
 	font-size: 2em;
 	border-radius: 2px;
 	height: 50px;
+	width: auto;
+	color: #999;
+	font-weight: normal;
+}
+
+.databoxRegistro {
+	font-family: "Muli", sans-serif;
+	font-size: 15px;
+	border-radius: 2px;
+	height: 20px;
 	width: auto;
 	color: #999;
 	font-weight: normal;
@@ -98,6 +159,15 @@ p.padding {
 
 .rectanguloRecibidos {
      height: 80px;
+     width: 1368px; 
+     background:#00008B;
+     margin-top: -30px;
+     margin-bottom: 50px;
+     margin-left: -10px;
+}
+
+.rectanguloSalida {
+     height: 80px;
      width: 1520px; 
      background:#00008B;
      margin-top: -30px;
@@ -105,8 +175,14 @@ p.padding {
      margin-left: -10px;
 }
 
+
 .rectanguloBotones {
      width: 100px; 
      height: 100px;
      float: left;
+}
+
+#tablet{
+	width:80%;float=right;margin-left:150px;border:5;background:#DCDCDC;margin-top:12px;border-collapse:separate;
+  border-spacing:10px;
 }
