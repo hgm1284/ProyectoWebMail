@@ -1,62 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Enviados - @ticomail.co.cr</title>
+	<title>Nuevo Correo - @ticomail.co.cr</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<!-- Responsive Web -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <header>
 <link rel="stylesheet" href="template.css">
 <body>
-<div class=rectanguloRecibidos>
+<article class=rectanguloSalida>
 	<img src="bandera-costa-rica-con-escudo.png" style="float:left;width:105px;height:60px;margin:10px;margin-top:10px">
 	<input type="text" name="nombredelacaja" style="float:left;width:400px;height:15px;margin:15px;margin-top:25px;">
 	<button type="button" onclick="alert('Buscando...por favor esperar.')" style="float:left;width:85px;height:20px;margin:1px;margin-top:25px">Buscar</button>
   <p class="padding">@ticomail.co.cr</p>
-</div>
+</article>
 <aside>
-<div>
   <div class=rectanguloBotones>
+
 <button type="button" onclick="alert('Buscando...por favor esperar.')" style="width:95px;height:30px;margin:1px;margin-top:1px;background:#B20000;color: white">Redactar</button><br><br>
 <button type="button" onclick="alert('Buscando...por favor esperar.')" style="width:85px;height:20px;margin:1px;margin-top:1px">Salida(5)</button>
-<button type="button" onclick="alert('Buscando...por favor esperar.')" style="width:85px;height:20px;margin:1px;margin-top:5px"><B>Enviados</B></button>
+<button type="button" onclick="alert('Buscando...por favor esperar.')" style="width:85px;height:20px;margin:1px;margin-top:5px">Enviados</button>
+
 </div>
+<textarea id="textareaPara" placeholder="Para:"></textarea>
+<textarea id="textareaPara" placeholder="Asunto:"></textarea>
+<br>
+<textarea id="textarea" placeholder="Crear Nuevo Mensaje"></textarea>
+<br>
+<button type="button" onclick="alert('Buscando...por favor esperar.')" style="width:85px;height:20px;margin-left:200px;background:#00008B;color: white"><B>Enviar</B></button>
 </aside>
-<table id="tablet">
-  <tr>
-    <td>Enviado</td>
-    <td>Feliz Cumpleaños amiga. Que la pases muy bien</td>		
-    <td>10:00</td>
-  </tr>
-  <tr>
-    <td>Enviado</td>
-    <td>Te envio las fotos del paseo a la playa. Gracias por invitarme. =)</td>		
-    <td>10 oct.</td>
-  </tr>
-  <tr>
-    <td>Enviado</td>
-    <td>Tarea 20: HTML5</td>		
-    <td>9 oct.</td>  </tr>
-  <tr>
-    <td>Enviado</td>
-    <td>Consulta: don Luis cuando es el viaje a la playa. Voy a pedir permiso.</td>		
-    <td>8 oct.</td>
-  </tr>
-  <tr>
-    <td>Enviado</td>
-    <td>Buenas Tardes! Cuando comienza el curso de HTML5 en la UTN</td>		
-    <td>1 oct.</td>
-  </tr>
-</table>
-</div>
+
 </body>
 </header>
 <footer>
-<p>&nbsp; </p>
-<p>&nbsp; </p>
-<p>&nbsp; </p>
-
 <div class="soporte">
-  <p align="center" class="BOTTOMTITULO">Mensajes Enviados</p>
+  <p align="center" class="BOTTOMTITULO">Nuevo Correo</p>
 </div>
 </footer>
 </html>
