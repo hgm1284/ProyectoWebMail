@@ -1,3 +1,4 @@
+/*Rectangulo azul de arriba de las páginas*/
 .rectangulo {
      height: 110px;
      width: 1369px; 
@@ -7,12 +8,14 @@
      margin-left: -10px;
 }
 
+/*Letras del título de las páginas*/
 p {
 	color: white;
 	text-align: center;
 	font: 200% sans-serif;
 }
 
+/*Letras del título de las páginas*/
 p.padding {
     padding-top: 40px;
     padding-right: 50px;
@@ -20,6 +23,7 @@ p.padding {
     padding-left: 50px;
 }
 
+/*Cuadro Rojo para el Registro*/
 #form-divRegistro {
 	background:#E60000;
 	padding-left: 30px;
@@ -36,6 +40,7 @@ p.padding {
 	-webkit-border-radius: 7px;
 }
 
+/*Cuadro Rojo para el Sigup*/
 #form-div {
 	background:#E60000;
 	padding-left: 35px;
@@ -52,6 +57,7 @@ p.padding {
 	-webkit-border-radius: 7px;
 }
 
+/*Letras del Signup*/
 .TEXTO {
 	width: 75px;
 	float: left;
@@ -65,6 +71,7 @@ p.padding {
 	font-size: 2em;
 }
 
+/*Título para persuadir al cliente a registrarse y crear una cuenta*/
 h1 { 
     display: block;
     font-size: 2em;
@@ -75,7 +82,20 @@ h1 {
     font-weight: bold;
     color: white;
 }
+ 
+ /*Título para información sobre como eliminar mensajes*/
+h5 { 
+    display: block;
+    font-size: 20px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    color: blue;
+}
 
+/*Texto de la página de registro*/
 .TEXTOregistro {
 	width: 50px;
 	float: left;
@@ -89,6 +109,7 @@ h1 {
 	font-size: 15px;
 }
 
+/*Cajas para ingresar datos*/
 .BOX {
 	float: left;
 	width: auto;
@@ -119,6 +140,7 @@ h1 {
 	margin-top: 10px;
 }
 
+/*Cajas del signup para ingresar los datos*/
 .databoxRegistro {
 	font-family: "Muli", sans-serif;
 	font-size: 15px;
@@ -129,6 +151,7 @@ h1 {
 	font-weight: normal;
 }
 
+/*Botones*/
 .boton{
 	    margin-left: 30px;
         font-size:15px;
@@ -137,10 +160,11 @@ h1 {
         color:white;
         background:#00008B;
         border:0px;
-        width:150px;
+        width:110px;
         height:25px;
        }
 
+/*Información de la ubicación de cada página y slogan*/
 .soporte {
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 22px;
@@ -151,12 +175,14 @@ h1 {
 	margin-left: auto;
 }
 
+/*Información de la ubicación de cada página y slogan*/
 .BOTTOMTITULO {
 	color: #00008B;
 	font-size: 1.5em;
 	font-family: "Muli", sans-serif;
 }
 
+/*Rectangulo azul de arriba de las páginas de Enviados*/
 .rectanguloRecibidos {
      height: 80px;
      width: 1368px; 
@@ -166,6 +192,7 @@ h1 {
      margin-left: -10px;
 }
 
+/*Rectangulo azul de arriba de las páginas de Salida*/
 .rectanguloSalida {
      height: 80px;
      width: 1368px; 
@@ -175,21 +202,26 @@ h1 {
      margin-left: -10px;
 }
 
+/*Rectangulo para ubicar los botones*/
 .rectanguloBotones {
      width: 100px; 
      float: left;
      height: 100px;
 }
 
+/*Crear diseño ubicación a la tabla*/
 #tablet{
 	width:80%;float=right;margin-left:150px;border:5;background:#DCDCDC;margin-top:12px;border-collapse:separate;
   border-spacing:10px;
 }
 
+/*Espacio para escribir un mensaje*/
 #textarea{
-	width:600px;float=right;margin-left:100px;border:5;margin-top:1px;height:300px;
+	width:600px;float=right;margin-left:100px;border:5;margin-top:1px;height:300px;resize:none;
 }
 
+/*Espacios para escribir destinatarios y asunto*/
 #textareaPara{
-	width:600px;height:15px;margin-left:100px;border:5;margin-top:1px;
+	width:600px;height:15px;margin-left:100px;border:5;margin-top:1px;resize:none;
 }
+
