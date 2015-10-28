@@ -20,7 +20,21 @@ p.padding {
     padding-top: 40px;
     padding-right: 50px;
     padding-bottom: 25px;
-    padding-left: 50px;
+    padding-left: 10px;
+}
+
+div img{
+	float: left;
+}
+
+img{
+	
+	float:left;width:105px;height:60px;margin:10px;margin-top:10px;
+}
+
+/*Creación de la barra de busqueda*/
+#caja{
+	float:left;width:180px;height:15px;margin:1px;margin-top:25px;
 }
 
 /*Cuadro Rojo para el Registro*/
@@ -164,6 +178,11 @@ h5 {
         height:25px;
        }
 
+       /*Boton del buscador*/
+.botonBuscar{
+	float:left;width:85px;height:20px;margin:1px;margin-top:25px;
+}
+
 /*Información de la ubicación de cada página y slogan*/
 .soporte {
 	font-family: Arial, Helvetica, sans-serif;
@@ -225,3 +244,20 @@ h5 {
 	width:600px;height:15px;margin-left:100px;border:5;margin-top:1px;resize:none;
 }
 
+/* No me funciona para enlaces entre páginas =/
+.botonEnviar{
+	width:85px;height:20px;margin-left:200px;background:#00008B;color:white;
+} */
+
+/* No me funciona como el botonBuscar  =/
+.botonRedactar{
+	width:95px;height:30px;margin:1px;margin-top:1px;background:#B20000;color:white;
+} */
+
+#chbox{
+	width:900px;height:180px;margin-left:200px;margin-top:1px;
+}
+
+#messenger {
+	width:800px;height:24px;margin-left:200px;color:black;text-align:justify;font-size:15px;
+}

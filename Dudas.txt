@@ -1,0 +1,9 @@
+Dudas: 
+1. Como darle enlace a los botones de los lados
+   y boton de enviar?
+2. CSS.
+3. Da click en la parte azul, xq?
+4. Como hacer la barra de busqueda mas larga?
+5. Como resolver problemas de tamaños y 
+   barra azul?
+

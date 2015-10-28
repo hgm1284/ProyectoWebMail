@@ -10,9 +10,12 @@
 <link rel="stylesheet" href="template.css">
 <body>
 <article class=rectanguloSalida>
-	<img src="bandera-costa-rica-con-escudo.png" style="float:left;width:105px;height:60px;margin:10px;margin-top:10px">
-	<input type="text" name="nombredelacaja" style="float:left;width:400px;height:15px;margin:15px;margin-top:25px;">
-	<button type="button" onclick="alert('Buscando...por favor esperar.')" style="float:left;width:85px;height:20px;margin:1px;margin-top:25px">Buscar</button>
+	<div class="img">
+		<a target="black"><img src="D:\Documents\Ingenería en Software\Diseño de Aplicaciones Web\Proyectos\ProyectoWebMail\bandera-costa-rica-con-escudo.png" alt="Escudo"></a></div>
+	<text id="caja">
+	<input name="nombredelacaja"></text>
+	<form name="form1"  onclick="alert('Buscando...por favor esperar.')">
+    <input type="submit" value="Buscar" class="botonBuscar">
   <p class="padding">@ticomail.co.cr</p>
   </article>
 </header>
@@ -28,7 +31,8 @@
 <button type="button" style="width:85px;height:20px;margin:1px;margin-top:5px">Enviados</button></a>
 <a href="file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/Eliminar.html">
 <button type="button" style="width:85px;height:20px;margin:1px;margin-top:5px">Eliminar</button></a>
-
+<a href="file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/Signup.html">
+<button type="button" style="width:85px;height:20px;margin:1px;margin-top:5px">Salir</button></a>
 </aside>
 <section id="textarea" style="width:800px;height:75px;margin-left:200px;">
 	<h2>Información de Kolbi</h2>
@@ -37,7 +41,7 @@
 </section>
 <p>&nbsp; </p>
 
-<p id="textarea" style="width:800px;height:24px;margin-left:200px;color:black;text-align:justify;font-size:15px">
+<p id="messenger">
 El operador de telefonía celular Movistar anunció la introducción del nuevo smartphone G4 de la marca LG, mientras que el Instituto Costarricense de Electricidad (ICE) lanzó un servicio de autogestión para usuarios de líneas postpago.
 
 En el caso del G4 de LG se trata de un smartphone Android y para redes 4G LTE —que Movistar ofrece con una regalía Bluetooth Stereo Headset— que viene con pantalla Quad HD de 5,5 pulgadas en diagonal, incorpora la tecnología Quantum para mayor contraste y rango de colores, y con ranura microSD y batería removible.
