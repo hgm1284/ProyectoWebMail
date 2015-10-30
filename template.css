@@ -50,7 +50,7 @@ img{
 	position: absolute;
 	margin-top: -10px;
 	margin-left: -260px;
-	-moz-border-radius: 7px;
+	-moz-border-radius: 7px; /*Bordes redondeados*/
 	-webkit-border-radius: 7px;
 }
 
@@ -67,7 +67,7 @@ img{
 	position: absolute;
 	margin-top: 5px;
 	margin-left: -260px;
-	-moz-border-radius: 7px;
+	-moz-border-radius: 7px; /*Bordes redondeados*/
 	-webkit-border-radius: 7px;
 }
 
@@ -183,6 +183,10 @@ h5 {
 	float:left;width:85px;height:20px;margin:1px;margin-top:25px;
 }
 
+.botonCerrar{
+	float:right;width:85px;height:20px;margin:1px;margin-top:25px;
+}
+
 /*Información de la ubicación de cada página y slogan*/
 .soporte {
 	font-family: Arial, Helvetica, sans-serif;
@@ -244,15 +248,24 @@ h5 {
 	width:600px;height:15px;margin-left:100px;border:5;margin-top:1px;resize:none;
 }
 
-/* No me funciona para enlaces entre páginas =/
-.botonEnviar{
+input.botonEnviar{
 	width:85px;height:20px;margin-left:200px;background:#00008B;color:white;
-} */
+}
 
-/* No me funciona como el botonBuscar  =/
-.botonRedactar{
+/*Botón de Redactar*/
+input.submit{
 	width:95px;height:30px;margin:1px;margin-top:1px;background:#B20000;color:white;
-} */
+}
+
+/*Botones con Resaltado*/
+input.submit2{
+	width:85px;height:20px;margin:1px;margin-top:1px;font-weight:bold;
+}
+
+/*Botones sin Resaltado*/
+input.submit3{
+	width:85px;height:20px;margin:1px;margin-top:1px;
+}
 
 #chbox{
 	width:900px;height:180px;margin-left:200px;margin-top:1px;
