@@ -1,13 +1,3 @@
-/*Rectangulo azul de arriba de las páginas*/
-.rectangulo {
-     height: 110px;
-     width: 1369px; 
-     background:#00008B;
-     margin-top: -30px;
-     margin-bottom: 50px;
-     margin-left: -10px;
-}
-
 /*Letras del título de las páginas*/
 p {
 	color: white;
@@ -187,11 +177,6 @@ h5 {
 	float:left;width:85px;height:20px;margin:1px;margin-top:25px;
 }
 
-/**/
-.botonCerrar{
-	float:right;width:85px;height:20px;margin:1px;margin-top:25px;
-}
-
 /*Información de la ubicación de cada página y slogan*/
 .soporte {
 	font-family: Arial, Helvetica, sans-serif;
@@ -210,18 +195,8 @@ h5 {
 	font-family: "Muli", sans-serif;
 }
 
-/*Rectangulo azul de arriba de las páginas de Enviados*/
+/*Rectangulo azul de arriba de las páginas*/
 .rectanguloRecibidos {
-     height: 80px;
-     width: 1368px; 
-     background:#00008B;
-     margin-top: -30px;
-     margin-bottom: 50px;
-     margin-left: -10px;
-}
-
-/*Rectangulo azul de arriba de las páginas de Salida*/
-.rectanguloSalida {
      height: 80px;
      width: 1368px; 
      background:#00008B;
@@ -237,7 +212,7 @@ h5 {
      height: 100px;
 }
 
-/*Crear diseño ubicación a la tabla*/
+/*Crear diseño y ubicación a la tabla*/
 #tablet{
 	width:80%;float=right;margin-left:150px;border:5;background:#DCDCDC;margin-top:12px;border-collapse:separate;
   border-spacing:10px;

@@ -2,6 +2,11 @@
 <html>
 <head>
 	<title>Editar Correo - @ticomail.co.cr</title>
+	<script src="ckeditor/ckeditor.js"></script>
+	<script src="ckeditor/samples/js/sample.js"></script>
+	<link rel="stylesheet" href="ckeditor/samples/css/samples.css">
+	<link rel="stylesheet" href="ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css\template.css">
@@ -9,11 +14,11 @@
 
 <header>
 <body>
-<article class=rectanguloSalida>
+<article class="rectanguloRecibidos">
 	<div class="img">
-		<a target="black"><img src="D:\Documents\Ingenería en Software\Diseño de Aplicaciones Web\Proyectos\ProyectoWebMail\Imagenes\bandera-costa-rica-con-escudo.png" alt="Escudo"></a></div>
+	<a target="black"><img src="D:\Documents\Ingenería en Software\Diseño de Aplicaciones Web\Proyectos\ProyectoWebMail\Imagenes\bandera-costa-rica-con-escudo.png" alt="Escudo"></a></div>
 	<text id="caja">
-	<input name="nombredelacaja"></text>
+	<input name="caja"></text>
 	<form name="form1"  onclick="alert('Buscando...por favor esperar.')">
     <input type="submit" value="Buscar" class="botonBuscar">
   <p class="padding">@ticomail.co.cr</p>
@@ -21,21 +26,22 @@
 </header>
 
 <aside>
-<div>
-  <div class=rectanguloBotones>
-  <div class="submit"><input class="submit" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/Creaci%C3%B3n%20de%20Correo.html'" value="Redactar"></div><br>
-  <div class="submit3"><input class="submit3" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/InicioSalida.html'" value="Salida (5)"></div>
-  <div class="submi3t"><input class="submit3" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/Enviados.html'" value="Enviados"></div>
+ <div class="rectanguloBotones">
+ <div class="submit"><input class="submit" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/Nuevo%20Correo.html'" value="Redactar"></div><br>
+ <div class="submit3"><input class="submit3" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/InicioSalida.html'" value="Salida (5)"></div>
+ <div class="submi3t"><input class="submit3" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/Enviados.html'" value="Enviados"></div>
  <div class="submit3"><input class="submit3" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/Eliminar.html'" value="Eliminar"></div>
  <div class="submit3"><input class="submit3" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/Signup.html'" value="Salir"></div>
 </div>
 </aside>
 
-<aside>
-<textarea id="textareaPara" placeholder="Destinatarios:">Mary Cells -marycells@hotmail.com</textarea>
+<section>
+<textarea id="textareaPara" placeholder="Destinatarios:">marycells@hotmail.com</textarea>
 <textarea id="textareaPara" placeholder="Asunto:">Información de Kolbi</textarea>
 <br>
-<textarea id="textarea" placeholder="Crear Nuevo Mensaje">El operador de telefonía celular Movistar anunció la introducción del nuevo smartphone G4 de la marca LG, mientras que el Instituto Costarricense de Electricidad (ICE) lanzó un servicio de autogestión para usuarios de líneas postpago.
+<main><div class="grid-container"><pre></pre>
+			<div class="grid-width-100">
+				<div id="editor"><p>El operador de telefonía celular Movistar anunció la introducción del nuevo smartphone G4 de la marca LG, mientras que el Instituto Costarricense de Electricidad (ICE) lanzó un servicio de autogestión para usuarios de líneas postpago.
 
 En el caso del G4 de LG se trata de un smartphone Android y para redes 4G LTE —que Movistar ofrece con una regalía Bluetooth Stereo Headset— que viene con pantalla Quad HD de 5,5 pulgadas en diagonal, incorpora la tecnología Quantum para mayor contraste y rango de colores, y con ranura microSD y batería removible.
 
@@ -43,13 +49,17 @@ Su cámara de 16 megapíxeles cuenta con foco láser y estabilización óptica d
 
 La compañía indicó que el LG G4 estará disponible en todos sus planes postpago y que también puede ser adquirido por los clientes de prepago por ¢436.900.
 
-En la modalidad postpago, la renta mensual de los planes que incluyen el celular —dependiendo de la prima y del plan adquirido por el cliente— va desde los ¢12.000 hasta los ¢37.000.</textarea>
+En la modalidad postpago, la renta mensual de los planes que incluyen el celular —dependiendo de la prima y del plan adquirido por el cliente— va desde los ¢12.000 hasta los ¢37.000.</p>
+	</div>
+	</main>
+	<script>
+	initSample();
+</script>
 <br>
-<aside>
- <div class="botonEnviar"><input class="botonEnviar" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/SalidaKolbi.html'" value="Enviar"></div>
+
+<div class="botonEnviar"><input class="botonEnviar" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/SalidaKolbi.html'" value="Enviar"></div>
 </div>
-</aside>
-</aside>
+</section>
 
 <footer>
 <div class="soporte">

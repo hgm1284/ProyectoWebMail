@@ -8,7 +8,7 @@ function ValidateEmail(inputText)
     }
     else
     {
-        alert("Nombre de Correo No Valido");
+        alert("Nombre de correo no valido");
     }
 }
 
@@ -22,7 +22,7 @@ function ValidateRegistro(inputText)
     }
     else
     {
-        alert("Formato de Correo No Valido");
+        alert("Formato de correo no valido");
     }
 }
 
