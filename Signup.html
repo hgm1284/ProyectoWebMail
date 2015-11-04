@@ -3,48 +3,49 @@
 <head>
 	<title>@ticomail.co.cr</title>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="css\template.css">
 </head>
-<link rel="stylesheet" href="template.css">
+
+<header>
 <body>
-  <header>
 <article class="rectangulo">
 <div class="img">
-    <a target="black"><img src="D:\Documents\Ingenería en Software\Diseño de Aplicaciones Web\Proyectos\ProyectoWebMail\bandera-costa-rica-con-escudo.png" alt="Escudo"></a></div>
+    <a target="black"><img src="D:\Documents\Ingenería en Software\Diseño de Aplicaciones Web\Proyectos\ProyectoWebMail\Imagenes\bandera-costa-rica-con-escudo.png" alt="Escudo"></a></div>
 <p class="padding">@ticomail.co.cr</p>
+</header>
 <form name="form1" action="file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/Registro.html">
     <input type="submit" value="Registrarse" class="boton">
 </form>
 </article>
+
 <div id="form-div">
 
+  <form name="form2">
 <div class="TEXTO">Usuario</div>
 <div class="BOX">
-        <input type="text" class="databox" size="35">
+      <input type="text" class="databox" size="35" name="data">
       </div>
       <p>&nbsp; </p>
-
 <div class="TEXTO">Contraseña</div>
 <div class="BOX">
-        <input type="password" class="databox" size="35">
+      <input type="password" class="databox" size="35">
       </div>
       <p align="center">&nbsp;</p>
       <p class="text">&nbsp;</p>
-  <form name="form1" action="file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/InicioSalida.html">
-    <input type="submit" value="Ingresar" class="boton">
-
+    <input type="button" value="Ingresar" class="boton" onClick="ValidateEmail(document.form2.data)">
   </form>
 </div>
-</header>
+
 <footer>
 <p>&nbsp; </p>
 <p>&nbsp; </p>
 <p>&nbsp; </p>
 <p>&nbsp; </p>
 <p>&nbsp; </p>
-
 <div class="soporte">
   <p align="center" class="BOTTOMTITULO">Bienvenido al correo electrónico más costarricense del país.</p>
 </div>
 </footer>
 </body>
+<script  src="js/name.js"></script>
 </html>

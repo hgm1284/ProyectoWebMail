@@ -1,9 +1,7 @@
-Dudas: 
-1. Como darle enlace a los botones de los lados
-   y boton de enviar?
-2. CSS.
-3. Da click en la parte azul, xq?
-4. Como hacer la barra de busqueda mas larga?
-5. Como resolver problemas de tamaños y 
-   barra azul?
+Dudas:
+1. Se valida el correo en el inicio de sesión y en el resgistro pero 
+No valida el correo en el destinatario.
+2. Da click en la parte azul, xq?
+3. Como hacer la barra de busqueda mas larga?
+4. Xq El editor de texto corrió la barra azul.
 

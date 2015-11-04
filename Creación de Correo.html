@@ -2,21 +2,28 @@
 <html>
 <head>
 	<title>Nuevo Correo - @ticomail.co.cr</title>
+	<script src="ckeditor/ckeditor.js"></script>
+	<script src="ckeditor/samples/js/sample.js"></script>
+	<link rel="stylesheet" href="ckeditor/samples/css/samples.css">
+	<link rel="stylesheet" href="ckeditor/samples/toolbarconfigurator/lib/codemirror/neo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css\template.css">
 </head>
+
 <header>
-<link rel="stylesheet" href="template.css">
 <body>
 <article class=rectanguloSalida>
 	<div class="img">
-		<a target="black"><img src="D:\Documents\Ingenería en Software\Diseño de Aplicaciones Web\Proyectos\ProyectoWebMail\bandera-costa-rica-con-escudo.png" alt="Escudo"></a></div>
+		<a target="black"><img src="D:\Documents\Ingenería en Software\Diseño de Aplicaciones Web\Proyectos\ProyectoWebMail\Imagenes\bandera-costa-rica-con-escudo.png" alt="Escudo"></a></div>
 <text id="caja">
-	<input name="nombredelacaja"></text>
+	<input name="caja"></text>
 	<form name="form1"  onclick="alert('Buscando...por favor esperar.')">
     <input type="submit" value="Buscar" class="botonBuscar">
-  <p class="padding">@ticomail.co.cr</p>
+<p class="padding">@ticomail.co.cr</p>
 </article>
+</header>
 
 <aside>
 <div>
@@ -32,18 +39,24 @@
 <textarea id="textareaPara" placeholder="Destinatarios:"></textarea>
 <textarea id="textareaPara" placeholder="Asunto:"></textarea>
 <br>
-<textarea id="textarea" placeholder="Crear Nuevo Mensaje:"></textarea>
+<main><div class="grid-container"><pre></pre>
+			<div class="grid-width-100">
+				<div id="editor">
+					</div>
+	</main>
+	<script>
+	initSample();
+</script>
 <br>
 <aside>
  <div class="botonEnviar"><input class="botonEnviar" type="button" onClick="location.href='file:///D:/Documents/Ingener%C3%ADa%20en%20Software/Dise%C3%B1o%20de%20Aplicaciones%20Web/Proyectos/ProyectoWebMail/SalidaClick.html'" value="Enviar"></div>
 </div>
 </aside>
 
-</body>
-</header>
 <footer>
 <div class="soporte">
   <p align="center" class="BOTTOMTITULO">Nuevo Correo</p>
 </div>
 </footer>
+</body>
 </html>
